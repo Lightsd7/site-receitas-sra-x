@@ -1,0 +1,87 @@
+
+        *{ 
+            padding: 0;
+            margin: 0;
+            font: 13px Arial, Verdana, Sans-Serif black;
+           
+        } 
+
+        #banner{
+            background-color: #29406D;
+            padding:20px;
+            text-align: center;
+        }
+
+        #banner h1{
+            font-size: 60px;
+            font-family: Verdana, Arial, Sans-Serif;
+            color: #FFC64C;
+        }
+
+        #banner h2{
+            font-family: Verdana, Arial, Sans-Serif;
+            color: #FFC64C;
+            font-style: italic;
+        }
+
+        #menu ul{
+            text-align: center;
+            background-color: #060;
+        }
+
+        #menu li{
+            display: inline-block;
+            border-right: 2px #030 solid;
+        }
+
+        #menu li:last-child{
+            border-right: none;
+        }
+
+        #menu a{
+            display: inline-block;
+            text-decoration: none;
+            padding: 20px;
+            color: white;
+            font-size: 20px Arial;
+            font-weight: bold;
+        }
+
+        #menu a:hover{
+            background-color: white;
+            color: #030;
+            text-decoration: line-through;
+        }
+
+        #menu li:hover:first-child a{
+            border-radius: 50px 0 0 50px;
+        }
+
+        #menu li:hover:last-child a{
+            border-radius: 0 50px 50px 0;
+        }
+
+        #menu a:visited{
+            text-decoration: underline;
+        }
+
+        #redes-sociais img{
+            height: 24px;
+
+        }        
+        
+        #esquerda{
+            background-color: purple;
+            width: 60%;
+            float: left;
+        }
+
+        #direita{
+            background-color: orange;
+            width: 25%;
+            float: left;
+        }
+
+        #rodape{
+            clear: both;
+        }
